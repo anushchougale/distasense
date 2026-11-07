@@ -1,0 +1,7 @@
+streamlit
+pandas
+sqlalchemy
+psycopg[binary]
+plotly
+python-dotenv
+streamlit-autorefresh
