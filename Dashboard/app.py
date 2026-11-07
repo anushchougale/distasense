@@ -59,7 +59,7 @@ st_autorefresh(interval=5000, key="refresh")
 
 @st.cache_resource
 def get_engine():
-    password = os.getenv("DB_PASSWORD")
+    password =2110
 
     if not password:
         raise ValueError("DB_PASSWORD is missing from .env")
