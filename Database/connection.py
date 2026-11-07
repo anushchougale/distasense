@@ -11,7 +11,7 @@ from sqlalchemy import create_engine, text, URL
 db_url = URL.create(
     drivername="postgresql+psycopg",
     username="postgres",
-    password=os.getenv("DB_PASSWORD", "your_postgresql_password"),
+    password=2110
     host="localhost",
     port=5432,
     database="distasense"
